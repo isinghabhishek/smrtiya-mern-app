@@ -10,7 +10,7 @@ Smrtiyan is a Memories App created by using React+Redux, Node, MongoDB, Express,
 
 ## Posts
 
-![smrtiyanPost](https://user-images.githubusercontent.com/91690267/190506252-6b3cb9dc-feb2-4d5c-a9da-28a40520a486.jpg)
+![smrtiyanLogin](https://user-images.githubusercontent.com/91690267/190506525-337ff6dc-8100-43ca-b4f6-2d7f34149f60.jpg)
 
 Smritiyan is a social media app to post your memories and those will create their account can also be able to post their memories and other people can also see it. smrtiya is a full stack MERN application and there is an application that can be used by many people and, will be able to share their memories with other people and they can like, one of the important features is that who post memories that person and only delete it, other people can see and like the other memory post.
 
