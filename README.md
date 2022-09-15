@@ -4,7 +4,7 @@
 
 ## Introduction
 
-###Smrtiyan App using Full Stack MERN Project React+Redux, Node, MongoDB, Express 
+#### Smrtiyan App using Full Stack MERN Project React+Redux, Node, MongoDB, Express 
 
 Smrtiyan is a Memories App created by using React+Redux, Node, MongoDB, Express, log in with Email(jwt), Pagination, Search and comment. A Full Stack MERN Project in which users can log in and post there day to day memory and share them with friends and close ones. The app comes with some special features that enable others to like the friend's memory but they can not delete it, only the creator of the memory can delete the memory from the App. The MERN App is Deployed using Heroku and Netlify.(link- https://smrtiyanmernapp.netlify.app )
 
