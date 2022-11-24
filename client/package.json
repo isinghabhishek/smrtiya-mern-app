@@ -1,5 +1,5 @@
 {
-  "name": "mern-stack-client",
+  "name": "smrtiyan-mern-stack-client",
   "version": "0.1.0",
   "private": true,
   "proxy": "https://smrtiyan-mern-app.herokuapp.com/",
