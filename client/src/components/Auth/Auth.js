@@ -38,17 +38,19 @@ const SignUp = () => {
       dispatch(signin(form, history));
     }
   };
-const googleSuccess = async (res) => {
-  const result = res?.profileObj;
-  const token = res?.tokenId;
 
-  try {
-    dispatch({ type: AUTH, data: { result, token } });
+  const googleSuccess = async (res) => {
+    const result = res?.profileObj;
+    const token = res?.tokenId;
 
-    history.push('/');
-  } catch (error) {
-       console.log(error);
-  }};
+    try {
+      dispatch({ type: AUTH, data: { result, token } });
+
+      history.push('/');
+    } catch (error) {
+      console.log(error);
+    }
+  };
 
   const googleError = () => console.log('Google Sign In was unsuccessful. Try again later');
 
@@ -76,8 +78,8 @@ const googleSuccess = async (res) => {
           <Button type="submit" fullWidth variant="contained" color="primary" className={classes.submit}>
             { isSignup ? 'Sign Up' : 'Sign In' }
           </Button>
-          {<GoogleLogin
-            clientId="975486188549-bthnbailgd8tn3otu2knot6pcf13un4k.apps.googleusercontent.com"
+          <GoogleLogin
+            clientId="51928720312-08crir9qvgp7cn9ib4p78tq3aunfs0qr.apps.googleusercontent.com"
             render={(renderProps) => (
               <Button className={classes.googleButton} color="primary" fullWidth onClick={renderProps.onClick} disabled={renderProps.disabled} startIcon={<Icon />} variant="contained">
                 Google Sign In
@@ -86,7 +88,7 @@ const googleSuccess = async (res) => {
             onSuccess={googleSuccess}
             onFailure={googleError}
             cookiePolicy="single_host_origin"
-          />}
+          /> 
           <Grid container justify="flex-end">
             <Grid item>
               <Button onClick={switchMode}>

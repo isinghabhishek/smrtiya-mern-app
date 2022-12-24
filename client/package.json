@@ -1,8 +1,8 @@
 {
-  "name": "mern-stack-client",
+  "name": "smrtiyan-mern-stack-client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://memories-project-part4.herokuapp.com/",
+  "proxy": "https://smrtiyan-mern-app.herokuapp.com/",
   "dependencies": {
     "@material-ui/core": "^4.9.10",
     "@material-ui/icons": "^4.9.1",
