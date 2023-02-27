@@ -13,8 +13,10 @@
 ![smrtiyanDetail](https://user-images.githubusercontent.com/91690267/190505036-05400505-95e2-4001-b202-28a393ed0307.jpg) 
 
 ## Posts
-
 ![smrtiyanLogin](https://user-images.githubusercontent.com/91690267/190506525-337ff6dc-8100-43ca-b4f6-2d7f34149f60.jpg)
+
+## Sign-in Page
+![SignPage](https://user-images.githubusercontent.com/91690267/221498272-49b59199-473f-46ec-bf31-d16b1e97a1b0.jpg)
 
 - Smritiyan is a social media app to post your memories and those will create their account can also be able to post their memories and other people can also see it. - Smrtiya is a full stack MERN application and there is an application that can be used by many people and, will be able to share their memories with other people and they can like, one of the important features is that who post memories that person and only delete it, other people can see and like the other memory post.
 
