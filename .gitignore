@@ -1,0 +1,5 @@
+node_modules
+build
+[submodule "server"]
+    path = server
+    url = git@github.com:owner/server-repo.git
