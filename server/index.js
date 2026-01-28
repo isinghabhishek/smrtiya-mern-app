@@ -26,7 +26,6 @@ app.get("/", (req, res) => {
 
 // MongoDB connection string (Atlas). Keep credentials secure in environment variables for production.
 const CONNECTION_URL =
-  "mongodb+srv://isinghabhishek:AbhiShekMGDB05@cluster0.zjaij9d.mongodb.net/smrtiyanapp?retryWrites=true&w=majority";
 // Port to listen on; prefer environment-provided value for deployments
 const PORT = process.env.PORT || 5000;
 
