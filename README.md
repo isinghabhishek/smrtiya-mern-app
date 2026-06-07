@@ -5,7 +5,9 @@
 [![Node Version](https://img.shields.io/badge/Node-v16-green.svg)](https://nodejs.org/)
 
 **Smrtiyan** (derived from the Sanskrit word *Smriti*, meaning *Memories*) is a feature-rich, full-stack MERN application. It serves as a personal and social diary where users can log in, post details about their memorable moments, share pictures, search through posts, and interact with posts created by others.
+
 🔗 **Live Web Application**: [https://smrtiyanmernapp.netlify.app](https://smrtiyanmernapp.netlify.app)
+
 ---
 ## 📸 Application Interface
 ### Memories Dashboard
